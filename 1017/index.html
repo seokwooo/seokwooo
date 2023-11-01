@@ -1,0 +1,254 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<title>jQuery Mobile</title>
+	<link rel="stylesheet" href="./media/jquery.mobile-1.4.5.min.css"/>
+	<script src="./media/jquery-1.11.1.min.js"></script>
+	<script src="./media/jquery.mobile-1.4.5.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="media/exam.css">
+<style>
+   li { list-style:none; }
+  .picture { list-style:none; padding:0; margin:0; }
+  .picture li { float:left; width:50%;}
+  .picture li a {display:block; margin:5px; border: 1px }
+  .picture li img { display:block; width:50%;  height:auto;}
+  .picture li img:hover { display:block; width:100%;  height:auto;} 
+</style>
+</head>
+
+<body>
+<div data-theme="b">
+	<div data-role="page" id="home">
+		<div data-role="header" data-theme="b">
+			<h1>부산경상대학교 컴퓨터정보융합과</h1>
+		</div>
+		<div data-role="content" style="text-align:center">
+				<img src="./media/학과사진.jpg" width="500px">
+			<ul data-role="listview" data-inset="true">
+				<li><a href="#intro">학과소개</a></li>
+				<li><a href="#movie" data-rel="dialog">학과영상</a></li>
+				<li><a href="#wizard3-1" data-rel="dialog">교가</a></li>
+				<li><a href="#gallery">학과앨범</a></li>
+			</ul>
+		</div>
+		<div data-role="footer" data-position="fixed" data-theme="b">
+			<h1>202006033서석우</h1>
+		</div>
+	</div>
+	
+	<div data-role="page" id="intro" data-theme="b">
+		<div data-role="header" data-theme="b">
+			<a href="#home" data-icon="arrow-l" data-direction="reverse">처음</a>			
+			<h1>학과안내</h1>
+		</div>
+		<div data-role="content">
+				<div  style="text-align:center">
+					<img src="./media/학과사진.jpg" width="500px">
+				</div>			
+			<div data-role="collapsible-set" data-theme="b" data-content-theme="e">
+				<div data-role="collapsible" data-collapsed="false">
+					<h4>학과안내</h4>
+					<h4>컴퓨터정보융합과 소개</h4>
+					<img src="media/subbanner_01.jpg">
+					<p>
+						미래 IT세상의 주인공은 바로 당신입니다.
+						"컴퓨터정보융합과"는 여러분의 성공적인 취업을 보장합니다.
+						부산경상대학교 컴퓨터정보융합과는 1983년 개설된 전자계산과에서 발전해온 학과입니다.
+						우리가 어느 대학의 학과를 선택할 때, 반드시 보게 되는 것이 바 그 학과가 얼마만큼의 전통을 가지고 있는가 하는 점일 것입니다.
+						이러한 30년이 넘은 전통을 발판으로 부산시내 어느 회사를 가더라도 막강한 졸업생 동문의 파워를 느낄 수 있습니다.
+						지금이나 앞으로의 세상은 컴퓨터를 기반으로 하는 IT기술이 더욱 그 가치가 빛나는 세상이며 컴퓨터가 없는 세상은 상상을 할 수 없을 것입니다.
+					</p>
+					<hr>
+					<h4>컴퓨터정보융합과의 특징</h4>
+					<p>
+						전공직무, 사회관계, 진로적성을 바탕으로 창의융합, 소통협업, 실용직무, 인성소양, 자기계발의 5대 역량을 갖춘 현장전문직업인력을 육성하고자 합니다.
+						이를 위하여 본 학과는 체계적인 현장실십을 위하여 수많은 기업들과 가족회사를 체결하고 상생하고 있으며,
+						교내입주기업인 게임/VR 전문기업 '(주)유캔스타'를 바탕으로 실무형 교육 및 취업연계를 진행하고 있습니다.
+						또한 부산인재평생교육진흥원의 '사회상생협력지원사업' 선정으로 창의융합 교육시스템을 구축하였습니다.
+					</p>
+					<hr>
+					<h4>IT전문 학교기업</h4>
+					<p>
+						부산 지역 최초, 유일의 IT전문 학교기업 '앱버튼'을 통한 체계적인 현장실습으로 실무능력향상 및 현장실습비 지원
+					</p>
+					<hr>
+					<h4>졸업 후 진로</h4>
+					<p>
+						IT솔루션 개발자, 홈페이지 개발자, 어플리케이션 개발자, 데이터 분석가 등의 자격증을 취득 가능하고, 
+						게임·메타버스콘텐츠 전공에서 게임개발프로그래머, 게임캐릭터/배경 모델러, 게임원화가, 게임애니메이터, 게임이펙터, 
+						가상현실/증강현실 개발자, 컴퓨터 방과 후 지도사, 코딩전문강사 등 취업, 게임회사 창업, 메타버스 크리에이터, 아바타 디자이너
+					</p>
+					<hr>
+					<h4>배우는 교과</h4>
+					<p>
+						컴퓨터정보·메타버스게임과에서 배울 수 있는 교과로는 앱/웹 프로그래밍, 시스템프로그래밍, 정보보안프로그래밍, 빅데이터 분석, AI(인공지능), IoT(사물인터넷), 
+						게임애니메이션, 게임(2D,3D)캐릭터 제작, 게임배경제작, 게임엔진프로그래밍, 게임 및 콘텐츠 스토리텔링, 게임미디어응용 등 IT분야의 전반전인 교육과정을 바탕으로 학년에 따라 심화과정을 배울 수 있습니다.
+					</p>
+				</div>
+				<div data-role="collapsible" >
+					<h3>전공소개</h3>
+					<div>
+						<h4>소프트웨어전공</h4>
+						<p>인공지능, 클라우드, 사물인터넷(IoT), 빅데이터, 정보보안솔루션, 지능형 소프트웨어 등이 등장하면서 고부가가치 창출이 가능한 새로운 소프트웨어 서비스의 관심도가 높은만큼 최근 4차 산업혁명에서 소프트웨어가 원동력이 될 것이라는 전망을 많은 언론에서 다루고 있습니다.</p>
+						<p>제조, 금융, 마케팅, 통신, 서비스 등에서 활용이 가능한 소프트웨어 산업은 다양한 분야에 접목이 가능하다는 장점이 있습니다. 예를 들어 Facebook이나 Google과 같은 소프트웨어 기업이 수많은 IT기술과 다양한 분야와의 융합을 통하여 초일류 대기업으로 거듭나고 있습니다.</p>
+						<p>이처럼 소프트웨어전공은 스마트앱, 웹 사이트의 구축 및 개발, 사물인터넷(IOT) 그리고 빅테이터 등 산업체의 요구에 적합한 현장 실무위주 의 교육과정을 통해, IT산업현장의 실무개발능력뿐만 아니라 창의적 문제 해결능력을 갖춘 전문 인력 양성을 목표로 하고 있습니다.</p>
+						<hr>
+						<h4>게임·메타버스콘텐츠전공</h4>
+						<p>빠르게 성장하는 온라인 유/무선게임 업계는 매년 성장하며 새로운 게임들을 출시하고 있습니다.</p>
+						<p>게임·메타버스콘텐츠전공은 다양한 장르의 게임에 대한 핵심성공분석 부터 게임기획, 컨셉개발, 기술 스택과 게임디자인, 그리고 마케팅전략까지 게임기획부터 개발, 서비스까지의 전반전인 과정을 팀 프로젝트식 수업 및 실무위주의 교육과정을 편성·운영함으로써 게임 개발업체에서 필요로 하는 실무형 인재를 양성하고 있습니다.</p>
+						<p>특히, 게임 제작의 기본원리를 강조한 실습중심의 교육은 스마트폰게임, PC온라인 게임, 메타버스콘텐츠등 다양한 게임플랫폼에서 실행가능한 게임을 개발할 수 있는 게임개발자를 양성하는 것을 교육목표로 하고 있습니다.</p>
+					</div>
+				</div>
+				<div data-role="collapsible" >
+					<h3>교수진소개</h3>
+					<div>
+						<div class="professor">
+							<img src="media/prof_0517_001.png" width="100px" alt="교수 1 사진">
+							<h3>육동철</h3>
+							<ul>
+							<li>전화번호: 051-850-1290</li>
+        					<li>이메일: net607@bsks.ac.kr</li>
+							<li>담당 교과목: DBModeling, 윈도우닷넷프로그래밍 등</li>
+							</ul>
+						</div>
+					</div>
+					<br>
+					<div>
+						<div class="professor">
+							<img src="media/prof_16.jpg" width="100px" alt="교수 1 사진">
+							<h3>공병운</h3>
+							<ul>
+							<li>전화번호: 051-850-1146</li>
+        					<li>이메일: kong2177@bsks.ac.kr</li>
+							<li>담당 교과목: 컴퓨터네트워크, 네트워크설계, 네트워크분석 등</li>
+							</ul>
+						</div>
+					</div>
+					<br>
+					<div>
+						<div class="professor">
+							<img src="media/blossom.webp" width="100px" alt="교수 1 사진">
+							<h3>김주현</h3>
+							<ul>
+							<li>전화번호: 051-123-4567</li>
+        					<li>이메일: professor@example.com</li>
+							<li>담당 교과목: 객체지향프로그래밍실무 등</li>
+							</ul>
+						</div>
+					</div>
+					<br>
+					<div>
+						<div class="professor">
+							<img src="media/bubbles.webp" width="100px" alt="교수 1 사진">
+							<h3>김언진</h3>
+							<ul>
+							<li>전화번호: 051-123-4567</li>
+        					<li>이메일: professor@example.com</li>
+							<li>담당 교과목: 사물인터넷 등</li>
+							</ul>
+						</div>
+					</div>
+					<br>
+					<div>
+						<div class="professor">
+							<img src="media/buttercup.webp" width="100px" alt="교수 1 사진">
+							<h3>김경민</h3>
+							<ul>
+							<li>전화번호: 051-123-4567</li>
+        					<li>이메일: professor@example.com</li>
+							<li>담당 교과목: SW프로젝트2 등</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div data-role="collapsible" >
+					<h3>주요 교과목</h3>
+					<p><h4>소프트웨어 전공</h4>컴퓨터개론, UI디자인, 그래픽기초실습, 프로그래밍언어활용, 화면구현, 웹사이트제작, 웹프로그래밍기초, 데이터베이스입문, 자료구조및알고리즘, 파이썬프로그래밍, 
+						객체지향프로그래밍, 웹프로그래밍실무, 사물인터넷, 정보통신, 유닉스운영체제, 윈도우닷넷프로그래밍, 어플리케이션설계, 데이터베이스모델링, 소프트웨어프로젝트, 정보처리시스템구현, 데이터분석, IT창업실무, 네트워크프로그래밍 등</p>
+					<hr>
+					<p><h4>게임·메타버스콘텐츠전공</h4>2D그래픽디자인, 게임기획입문, 게임스토리텔링, 디자인드로잉, 아이디어발상과표현, 프로그래밍언어활용기초, 3D캐릭터및배경기초, 게임스토리보드, 게임알고리즘, 게임엔진응용프로그래밍기초, 
+						가상현실콘텐츠제작, 시스템분석및설계, 2D/3D캐릭터디자인, 게임시스템기획, 게임제작프로젝트실습, 게임프로그래밍실습, 게임캐릭터디자인활용, 캡스톤디자인, 게임미디어응용, 메타버스개론, 메타버스콘텐츠제작 등</p>
+				</div>
+				<div data-role="collapsible">
+					<h3>오시는 길</h3>
+					<img src="media/학과위치.jpg">
+					<hr>
+					<div>
+						<div>
+						<h4>버스로 오시는 경우</h4>
+						<ul>
+							<li><b>광안리 방면</b> | 49번 버스 또는 수영교차로에서 54번 버스 이용</li>
+							<li><b>반송 방면</b> | 동래에서 오시는 경우 : 49번, 54번, 57번, 100-1번, 189-1번</li>
+							<li><b>해운대 방면</b> | 연산교차로에서 오시는 경우 : 54번, 86번, 87번, 100-1번 버스 이용</li>
+						</ul>
+						</div>
+						<hr>
+						<div>
+						<h4>도시철도로 오시는 경우</h4>
+						<ul>
+							<li><b>1호선</b> | 연산역 8번 출구로 나오신 후 연제일신병원을 지나 네상떼과자점 앞 연산교차로 정류장에서 54번, 100-1번 버스 승차</li>
+							<li><b>2호선</b> | 수영역 2번 또는 3번 출구로 나오신 후 54번, 210번, 49번 버스 승차</li>
+							<li><b>3호선</b> | 연산역(8번 출구, 12번 출구)이나 수영역(2번, 3번출구)에서 54번, 100-1번 버스 승차</li>
+						</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div data-role="footer" data-position="fixed" data-theme="b">
+			<h1>202006033서석우</h1>
+		</div>		
+	</div>
+	
+	<div data-role="page" id="movie" data-theme="b">
+		<div data-role="header" data-position="fixed" data-theme="b">
+			<h1>학과영상</h1>
+		</div>
+		<div data-role="content" >
+			<div class="ui-bar ui-bar-a">2023학년도 부산경상대학교 홍보 동영상</div><br/>
+			<iframe width="100%" height="240" src="https://www.youtube.com/embed/mpSDCL40yRg?si=BYhSncfvmy817OnV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			<div class="ui-bar ui-bar-a">컴퓨터정보융합과 홍보 동영상</div><br/>
+			<iframe width="100%" height="240" src="https://www.youtube.com/embed/8GfvNvc9Ecc?si=pJN60pOQRikudfns" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		</div>
+		<div data-role="footer" data-theme="b">
+		</div>
+	</div>
+	
+	<div data-role="page" id="wizard3-1">
+		<div data-role="header">
+			<h1>교가</h1>
+		</div>
+		<div data-role="content">
+			<audio controls width="100%" preload="metadata">
+				<source src="./media/schoolsong.mp3" type="audio/mp3">
+			</audio>	
+			<img src="media/song.gif" alt="" width="100%">
+		</div>
+	</div>
+
+	<div data-role="page" id="gallery"  data-theme="b">
+		<div data-role="header" data-position="fixed"  data-theme="b">
+			<a href="#home" data-icon="arrow-l" data-direction="reverse">처음</a>
+			<h1>학과앨범</h1>
+		</div>
+		<div data-role="content">
+            <ul class="picture">
+				<li><a href="./media/1-1.jpg" rel="external"><img src="./media/1-1.jpg" /></a>졸업작품전시회</li>	
+				<li><a href="./media/1-2.jpg" rel="external"><img src="./media/1-2.jpg" /></a>졸업작품전시회</li>
+				<li><a href="./media/1-3.jpg" rel="external"><img src="./media/1-3.jpg" /></a>졸업작품전시회</li>
+				<li><a href="./media/1-4.jpg" rel="external"><img src="./media/1-4.jpg" /></a>졸업작품전시회</li>
+				<li><a href="./media/1-5.jpg" rel="external"><img src="./media/1-5.jpg" /></a>졸업작품전시회</li>
+				<li><a href="./media/1-6.png" rel="external"><img src="./media/1-6.png" /></a>메타버스 학습</li>
+				<li><a href="./media/1-7.jpg" rel="external"><img src="./media/1-7.jpg" /></a>현장실습 발표회</li>
+				<li><a href="./media/1-8.jpg" rel="external"><img src="./media/1-8.jpg" /></a>VR체험학습</li>
+            </ul>
+		</div>
+		<div data-role="footer" data-position="fixed" data-theme="b">
+			<h1>202006033서석우</h1>
+		</div>		
+	</div>
+</div>	
+</body>
+</html>
