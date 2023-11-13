@@ -1,0 +1,7 @@
+* { margin: 0; padding: 0; }
+.gallery { width: 100%; max-width: 600px; margin: 0 auto; }
+.thumb { width: 100%; margin-bottom: 3px; list-style: none; overflow: hidden; }
+.thumb li { width: 25%; float: left; text-align: center; }
+.thumb li img { width: 98%; }
+.main { width: 100%; text-align: center; }
+.main img { width: 99.5%; }

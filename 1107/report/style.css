@@ -1,0 +1,21 @@
+body {
+    background-color: #2d2e35;
+    color: #FFFFFF;
+    font-family: 'NanumSquare';
+}
+
+.definition {
+    font-size: 1.5em;
+}
+
+.trypyscript {
+    border: 1px solid #f0f0f0;
+    background-color: #202020;
+    max-width: 550px;
+}
+
+.example0 {
+    border: 1px solid #f0f0f0;
+    background-color: #202020;
+    max-width: 500px;
+}

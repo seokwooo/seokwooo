@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+    <link rel="stylesheet" href="report/style.css">
+    <link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-square.css" rel="stylesheet">
+    <title>1107 과제 pyscript & bunscript</title>
+</head>
+<body>
+    <img src="report/pyscript-sticker-black.svg" width="250">
+    <div>
+        <div>
+            <h2>pyscript 정의</h2>
+            <ul>
+                <li class="definition">HTML 내부에서 직접 파이썬을 작성하고 실행할 수 있는 프로젝트</li>
+            </ul>
+        </div>
+        <div>
+            <h2>pyscript의 특징 및 기능</h2>
+            <ol>
+                <li><b>브라우저 내의 파이썬</b>: 서버 구성에 의존하지 않고 콘텐츠, 외부 파일 호스팅 및 애플리케이션 호스팅을 지원</li>
+                <li><b>파이썬 생태계</b>: 파이썬과 과학 분야(numpy, pandas, scikit-learn) 등의 인기 있는 많은 패키지 실행이 가능</li>
+                <li><b>파이썬과 자바스크립트</b>: 객체 및 네임스페이스 간의 양방향 통신이 가능</li>
+                <li><b>환경 관리</b>: 사용자가 Visual 응용프로그램 개발을 실행하기 위해 페이지 코드에 포함할 패키지 및 파일을 정의
+                <br>버튼, 컨테이너, 텍스트 상자 등과 같이 쉽게 사용할 수 있는 큐레이션 된 UI 구성 요소를 사용</li>
+                <li><b>유연한 프레임워크</b>: 파이썬에서 직접 새롭게 실행하고 확장 가능한 구성 요소를 생성하고 공유할 수 있는 유연한 프레임워크</li>
+            </ol>
+        </div>
+        <div>
+            <h2>pyscript 실행 방법</h2>
+            <p>사용하고자 하는 페이지에 pyscript의 CSS, JS 주소를 선언해주면 사용 가능</p>
+            <div class="trypyscript">
+                <xmp><link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" /></xmp>
+                <xmp><script defer src="https://pyscript.net/latest/pyscript.js"></script></xmp>
+            </div>
+        </div>
+        <div>
+            <h2>pyscript 사용</h2>
+            <p><b>Hello, pyscript!</b> 를 출력하는 예제</p>
+            <div class="trypyscript">
+                <xmp>
+                    <py-script>
+                    print('hello, pyscript!')
+                    </py-script>
+                </xmp>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <img src="report/bun.webp" width="350">
+    <div>
+        <div>
+            <h2>bun 정의</h2>
+            <ul>
+                <li class="definition">자바스크립트 런타임의 일종으로써, 자바스크립트로 작성된 프로그램을 실행해주는 소프트웨어</li>
+            </ul>
+        </div>
+        <div>
+            <h2>cbun의 특징 및 기능</h2>
+            <ol>
+                <li>Node.js/Deno 보다 훨씬 빠른 구동 속도</li>
+                <li>NodeJS 패키지 지원, 내장된 Typescript 지원, CommonJS와 ESModules 모두 지원, 내장된 테스트 지원</li>
+                <li>파일 시스템, 네트워크 및 환경에 대한 액세스를 제한하는 보안 런타임을 제공하여 보안 취약성을 방지</li>
+                <li>비동기 함수 외부에서 키워드를 사용할 수 있는 최상위 await를 지원</li>
+                <li>V8 엔진 대신 WebKit에서 사용하는 JavaScriptCore을 엔진을 사용</li>
+            </ol>
+        </div>
+        <div>
+            <h2>bun 실행 방법</h2>
+            <p><b>!온전한 윈도우 환경에서는 아직 제작 중입니다!</b></p>
+            <p>macOS, Linux, WSL 지원(리눅스용 윈도우 하위 시스템) curl 명령어로 간단하게 설치가 가능함</p>
+            <div class="example0">
+                <xmp>$ curl -fsSL https://bun.sh/install | bash</xmp>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
