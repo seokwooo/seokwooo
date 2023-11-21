@@ -137,9 +137,10 @@
     </section>
 
     <section id="map-api">
-        <div id="map" style="width:500px;height:400px;"></div>
-	<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=	6a488a3807afcf7b334c8b0e0dbd9415"></script>
-	<script>
+        <h2>카카오 지도</h2>
+        <div id="map" style="width:500px;height:400px;text-align: center;"></div>
+	    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=	6a488a3807afcf7b334c8b0e0dbd9415"></script>
+	    <script>
         //https://map.kakao.com/link/to/18577297
 		var container = document.getElementById('map');
 		var options = {
@@ -147,10 +148,10 @@
 			level: 3
 		};
         const markerPosition = new window.kakao.maps.LatLng(
-            38.2313466,
-            128.2139293
+            33.450701,
+            126.570667
         );
-        
+
 		var map = new kakao.maps.Map(container, options);
         const marker = new window.kakao.maps.Marker({
 		    position: markerPosition,
