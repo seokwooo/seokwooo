@@ -45,3 +45,7 @@ video { margin: 5px; width: 300px; height: 200px; }
 
 /* 언더바 삭제 */
 a {text-decoration: none; }
+
+body {
+    background-color: white;
+}
